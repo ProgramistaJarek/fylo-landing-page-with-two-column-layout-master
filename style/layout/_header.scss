@@ -1,0 +1,21 @@
+header {
+  padding: 1.5rem;
+  font-family: $font-Raleway;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 6rem;
+    height: auto;
+  }
+}
+
+.menu {
+  a {
+    text-decoration: none;
+    margin: 0 0.3rem;
+  }
+}
