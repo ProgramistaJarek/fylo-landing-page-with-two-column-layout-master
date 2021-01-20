@@ -1,0 +1,26 @@
+.bottom {
+  font-family: $font-Raleway;
+  background-color: $desaturated-blue;
+  margin: 0 -1.5rem;
+  padding: 3rem 2rem;
+  color: white;
+  text-align: center;
+  p {
+    margin-top: 1rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 1rem auto 0;
+    input[type="text"] {
+      padding: 0.75rem;
+      border: none;
+      font-family: $font-Raleway;
+      outline: none;
+    }
+    .access-btn {
+      border-radius: 0;
+    }
+  }
+}
