@@ -27,10 +27,12 @@ nav img {
 .menu a {
   text-decoration: none;
   margin: 0 0.3rem;
+  font-weight: 400;
 }
 
 main {
   margin: 1.5rem;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -52,6 +54,9 @@ main {
 .top img {
   width: 100%;
   height: auto;
+}
+.top .container {
+  margin-top: 2rem;
 }
 .top .container h1 {
   font-weight: 700;
@@ -177,6 +182,52 @@ main {
 }
 .bottom form .access-btn {
   border-radius: 0;
+}
+
+footer {
+  background-color: #070439;
+  color: white;
+  padding: 5rem 1.5rem 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+footer .container {
+  padding-top: 1rem;
+}
+footer .container .link {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+footer .container .link img {
+  margin-right: 1rem;
+}
+footer .container .links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+footer .container .links a {
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+footer .container .social {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+footer .container .social a {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
