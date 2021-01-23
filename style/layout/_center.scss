@@ -10,8 +10,10 @@
   }
   .container {
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h2 {
-      text-align: center;
       font-size: $font-size;
       color: $very-dark-blue;
     }
@@ -21,8 +23,6 @@
       line-height: 1.5rem;
     }
     a {
-      display: flex;
-      justify-content: center;
       margin-top: 1rem;
       color: $moderate-cyan;
     }
@@ -74,4 +74,50 @@
   max-width: 375px;
   height: 53px;
   margin: 5rem -1.5rem 0;
+}
+
+@media (min-width: 376px) {
+  .background {
+    background-image: url("/images/bg-curve-desktop.svg");
+    max-width: 1440px;
+    height: 114px;
+    background-position: center;
+  }
+}
+@media (min-width: 768px) {
+  .center {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 1.5rem 3rem;
+    img {
+      width: 45%;
+    }
+    .container {
+      margin-top: 0;
+      align-items: flex-start;
+      margin-right: 2rem;
+      h2 {
+        text-align: left;
+      }
+      .quotation {
+        margin: 1.5rem 0 0;
+        width: 35vw;
+        padding: 1rem;
+        background-color: white;
+        .icon {
+          font-size: 0.75rem;
+          font-weight: $font-700;
+          margin-top: 1rem;
+          line-height: 1.3rem;
+          position: relative;
+          &::before {
+            content: url(/images/icon-quotes.svg);
+            position: absolute;
+            top: -1rem;
+          }
+        }
+      }
+    }
+  }
 }

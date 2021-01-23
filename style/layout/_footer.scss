@@ -43,3 +43,30 @@ footer {
     }
   }
 }
+
+@media (min-width: 768px) {
+  footer {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+      .link {
+        margin: 0;
+        &:nth-child(2){
+          margin-top: 1rem;
+        }
+      }
+      .links {
+        margin: 0;
+        a {
+          &:nth-child(1) {
+            margin-top: 0;
+          }
+        }
+      }
+      .social {
+        margin: 0;
+      }
+    }
+  }
+}

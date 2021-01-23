@@ -6,13 +6,12 @@
   }
   .container {
     margin-top: 2rem;
+    text-align: center;
     h1 {
       font-weight: $font-700;
-      text-align: center;
     }
     p {
       font-weight: $font-400;
-      text-align: center;
       margin-top: 2rem;
     }
     form {
@@ -26,6 +25,29 @@
         border-radius: 0.5rem;
         font-family: $font-Raleway;
         outline: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .top {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 3rem;
+    img {
+      width: 45%;
+    }
+    .container {
+      text-align: left;
+      margin-top: 0;
+      margin-right: 2rem;
+      p {
+        margin-top: 1rem;
+      }
+      form {
+        margin-top: 1rem;
       }
     }
   }

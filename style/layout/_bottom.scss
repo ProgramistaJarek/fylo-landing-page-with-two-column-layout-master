@@ -24,3 +24,19 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    .text {
+      flex: 0 0 45%;
+    }
+    form {
+      flex: 0 0 45%;
+      margin: 0;
+    }
+  }
+}
