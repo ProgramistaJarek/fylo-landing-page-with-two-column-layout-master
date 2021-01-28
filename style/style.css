@@ -30,6 +30,11 @@ nav img {
   font-weight: 400;
 }
 
+@media (min-width: 1024px) {
+  header {
+    padding: 2rem 5rem;
+  }
+}
 main {
   margin: 1.5rem;
   margin-bottom: 0;
@@ -48,6 +53,12 @@ main {
   cursor: pointer;
 }
 
+@media (min-width: 1024px) {
+  main {
+    margin: 5rem;
+    margin-bottom: 0;
+  }
+}
 .top {
   font-family: "Raleway", sans-serif;
 }
@@ -100,6 +111,36 @@ main {
   }
   .top .container form {
     margin-top: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .top {
+    justify-content: space-between;
+  }
+  .top img {
+    width: 45%;
+  }
+  .top .container {
+    max-width: 35rem;
+  }
+  .top .container h1 {
+    font-size: 2rem;
+  }
+  .top .container p {
+    font-size: 1rem;
+  }
+  .top .container form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .top .container form input[type=text] {
+    padding: 0.75rem 6rem 0.75rem 0.75rem;
+  }
+  .top .container form .btn-top {
+    margin-top: 0;
+    padding: 0.75rem 1.5rem;
+    margin-left: 0.5rem;
   }
 }
 .center {
@@ -223,6 +264,36 @@ main {
     top: -1rem;
   }
 }
+@media (min-width: 1024px) {
+  .center {
+    margin: 0 -5rem;
+    padding: 0 5rem 3rem;
+    justify-content: space-between;
+  }
+  .center .container {
+    width: 35rem;
+  }
+  .center .container h2 {
+    font-size: 2rem;
+  }
+  .center .container p {
+    padding-right: 10rem;
+  }
+  .center .container a {
+    margin-top: 1rem;
+    color: #3c9f8f;
+  }
+  .center .container .quotation {
+    width: 17rem;
+  }
+  .center .container .quotation .icon {
+    padding: 0;
+  }
+
+  .background {
+    margin: 5rem -5rem 0;
+  }
+}
 .bottom {
   font-family: "Raleway", sans-serif;
   background-color: #585989;
@@ -265,6 +336,21 @@ main {
     margin: 0;
   }
 }
+@media (min-width: 1024px) {
+  .bottom {
+    margin: 0 -5rem;
+    padding: 3rem 5rem;
+  }
+  .bottom .text {
+    flex: 0 0 35rem;
+  }
+  .bottom .text h3 {
+    font-size: 1.5rem;
+  }
+  .bottom .access-btn {
+    width: 17vw;
+  }
+}
 footer {
   background-color: #070439;
   color: white;
@@ -292,6 +378,9 @@ footer .container .links a {
   text-decoration: none;
   margin-top: 1rem;
 }
+footer .container .links a:hover {
+  color: #3065f8;
+}
 footer .container .social {
   margin-top: 4rem;
   display: flex;
@@ -309,6 +398,10 @@ footer .container .social a {
   align-items: center;
   justify-content: center;
   color: white;
+}
+footer .container .social a:hover {
+  color: #3065f8;
+  border-color: #3065f8;
 }
 
 @media (min-width: 768px) {
@@ -331,6 +424,11 @@ footer .container .social a {
   }
   footer .container .social {
     margin: 0;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    padding: 5rem 5rem 1.5rem;
   }
 }
 

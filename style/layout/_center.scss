@@ -121,3 +121,33 @@
     }
   }
 }
+
+@media (min-width: 1024px) {
+  .center {
+    margin: 0 -5rem;
+    padding: 0 5rem 3rem;
+    justify-content: space-between;
+    .container {
+      width: 35rem;
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        padding-right: 10rem;
+      }
+      a {
+        margin-top: 1rem;
+        color: $moderate-cyan;
+      }
+      .quotation {
+        width: 17rem;
+        .icon {
+          padding: 0;
+        }
+      }
+    }
+  }
+  .background {
+    margin: 5rem -5rem 0;
+  }
+}

@@ -21,6 +21,9 @@ footer {
         color: white;
         text-decoration: none;
         margin-top: 1rem;
+        &:hover {
+          color: $bright-blue;
+        }
       }
     }
     .social {
@@ -39,6 +42,10 @@ footer {
         align-items: center;
         justify-content: center;
         color: white;
+        &:hover {
+          color: $bright-blue;
+          border-color: $bright-blue;
+        }
       }
     }
   }
@@ -52,7 +59,7 @@ footer {
       margin-top: 1rem;
       .link {
         margin: 0;
-        &:nth-child(2){
+        &:nth-child(2) {
           margin-top: 1rem;
         }
       }
@@ -68,5 +75,11 @@ footer {
         margin: 0;
       }
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  footer {
+    padding: 5rem 5rem 1.5rem;
   }
 }

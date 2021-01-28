@@ -20,3 +20,9 @@ nav {
     font-weight: $font-400;
   }
 }
+
+@media (min-width: 1024px) {
+  header {
+    padding: 2rem 5rem;
+  }
+}

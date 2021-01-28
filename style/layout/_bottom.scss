@@ -40,3 +40,19 @@
     }
   }
 }
+
+@media (min-width: 1024px) {
+  .bottom {
+    margin: 0 -5rem;
+    padding: 3rem 5rem;
+    .text {
+      flex: 0 0 35rem;
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+    .access-btn {
+      width: 17vw;
+    }
+  }
+}
